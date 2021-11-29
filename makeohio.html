@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>MakeOHIO</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Home</a>
+				<nav>
+					<ul>
+						<!-- <li><a href="index.html">Home</a></li> -->
+						<!-- <li><a href="generic.html" class="active">Generic</a></li> -->
+						<!-- <li><a href="elements.html">Elements</a></li> -->
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major" style="font-family:monospace;">2020 MakeOHI/O Competition</h1>
+							<h2 style="font-family:monospace;">Visual Solution for Indoor Location Tracking</h2>
+							<p style = "font-family:monospace;text-align: left"><a href="https://voicethread.com/myvoice/thread/13882247/84747248/78276392", target="_blank", rel="noopener noreferrer"  style="color:#b74e91;">
+							Voice over presentation</a> of this project at Honda 99P Lab; <a href="https://docs.google.com/presentation/d/1_D1bsLCQhCxbJpWE-ToC8XqlQrMM5EXuooTUrIpPbWE/edit?usp=sharing", target="_blank", rel="noopener noreferrer" style="color:#b74e91;">
+								Slides for presentation</a> of this project;
+							</p>
+							<!-- <p style = "font-family:monospace;text-align: left"><a href="https://docs.google.com/presentation/d/1_D1bsLCQhCxbJpWE-ToC8XqlQrMM5EXuooTUrIpPbWE/edit?usp=sharing", target="_blank", rel="noopener noreferrer">
+							Slides for presentation</a> of this project<br>
+							</p> -->
+
+							
+							<img src="images/make.jpg" class="centerImage" alt="" height="500" width="500">
+							<img src="images/make2.png" class="centerImage" alt="" height="500" width="900">
+							<h2 style="font-family:monospace;text-align: justify;"><br>Award: Championship of Honda Challenge<br><br></h2>
+							
+							<p style="font-family:monospace;text-align: justify;"><a href="https://hack.osu.edu/make/2020/", target="_blank", rel="noopener noreferrer" style="color:#b74e91;">
+							MakeOHI/O Competition</a> is an annual 24-hours makeathon competition held by the Ohio State University. 
+							In 2020, more than 150 undergraduate and graduate students joined this compeittion. <br \><br \>I led a team of three to 
+						    compete in the <a href="https://hack.osu.edu/make/2020/assets/pdf/MakeOHIO2020_Honda_Challenge.pdf", target="_blank", rel="noopener noreferrer"  style="color:#b74e91;">
+							Honda Challenge</a> in this competition. The topic of this challenge is: <br \></p>
+							<h4 style="font-family:monospace;text-align: center">Build an IoT system to track the movement, 
+							arrangement and utilization of 99P Labs resources.<br \>
+							Understand what it takes for your indoor location tracking system to be low cost and scalable.<br \><br \>
+							</h4>
+							<p style="font-family:monospace;text-align: justify;">Different from other teams who participated in this challenge who used traditional IoT development kits, 
+							we proposed a <strong>visual solution to this IoT problem</strong>. We used a monocular camera and attached it to an one DoF linkage. We attached the linkage
+						    to a wall and processed image data from the camera using a Jetson Nano. Based on the calibrated images from recitification and transformation 
+						    of raw inputs, we applied Yolo V3 to recognize objects that we were interested in, and drew bounding boxes to determine the region of interest. <br \>
+						    </p>
+							<p style="font-family:monospace;text-align: justify;">Based on the coordinates of the bounding boxes, we were able
+							to estimate the location of an object in the environment. We then divide the environment into some areas, and plot the 
+							heat map of different objects in a specific time period. <br \><br \></p>
+							<img src="images/make3.png" class="image fit" alt="" >
+
+							<p style="font-family:monospace;text-align: justify;">We won <strong>1st place</strong> in this Challenge, and we were
+							invited to give a presentation of our project to the Honda 99P Lab located at Columbus, Ohio.<br \><br \></p>
+							
+							</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
